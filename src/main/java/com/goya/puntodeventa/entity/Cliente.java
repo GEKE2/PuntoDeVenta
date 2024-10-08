@@ -1,4 +1,4 @@
-package com.goya.puntodeventa.empity;
+package com.goya.puntodeventa.entity;
 
 
 import jakarta.persistence.Entity;
@@ -10,7 +10,7 @@ import jakarta.persistence.Table;
 
 @Entity
 @Table(name = "clientes")
-public class Clientes {
+public class Cliente {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -18,10 +18,10 @@ public class Clientes {
     private String nombre;
     private String email;
 
-    public Clientes() {
+    public Cliente() {
     }
 
-    public Clientes(String nombre, String email) {
+    public Cliente(String nombre, String email) {
         this.nombre = nombre;
         this.email = email;
     }

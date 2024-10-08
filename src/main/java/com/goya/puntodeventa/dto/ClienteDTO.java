@@ -6,6 +6,7 @@ public class ClienteDTO {
 	 private String nombre;
 	 private String email;
 	 
+	// public ClienteDTO() { }
 	 
 	public ClienteDTO(Long id, String nombre, String email) {
 		super();

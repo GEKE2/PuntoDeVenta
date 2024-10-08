@@ -3,9 +3,9 @@ package com.goya.puntodeventa.repository;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.goya.puntodeventa.empity.Clientes;
+import com.goya.puntodeventa.entity.Cliente;
 
 @Repository
-public interface ClienteRepository extends JpaRepository<Clientes, Long> {
+public interface ClienteRepository extends JpaRepository<Cliente, Long> {
 
 }
